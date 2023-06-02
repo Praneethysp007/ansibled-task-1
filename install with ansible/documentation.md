@@ -7,29 +7,29 @@
  ```
  sudo vi etc/ssh/sshd-config
  ```
- ![alt text](/images/image1.png)
+ ![alt text](./images/image1.png)
 
 3. Restart the sshd
  
- ![alt text](/images/image2.png)
+ ![alt text](./images/image2.png)
 
  4. Now create a user "devops" on both the instances
 
- ![alt text](/images/image3.png)
+ ![alt text](./images/image3.png)
 
  5. Enable the sudo permissions to the users on both instances
  
- ![alt text](/images/image4.png)
+ ![alt text](./images/image4.png)
 
  6. Now login with the devops user on both instances
 
- ![alt text](/images/image5.png)
+ ![alt text](./images/image5.png)
 
  7. Now generate the keygen on the control node
  
  8. Now copy id of the control node to the node1 by giving the private ip address of node1
 
- ![alt text](/images/image6.png)
+ ![alt text](./images/image6.png)
 
 
  ### Now we have connected both the machines
@@ -39,7 +39,7 @@
   anisible -i hosts -m ping
   ```
   it will give some output which looks like this in below
-  ![alt text](/images/image9.png)
+  ![alt text](./images/image9.png)
 
 
 ### Now install ansible in the control node in devops user
@@ -50,7 +50,7 @@ sudo apt install software-properties-common -y
 sudo add-apt-repository --yes --update ppa:ansible/ansible
 sudo apt install ansible -y
 ```
-![alt text](/images/image7.png)
+![alt text](./images/image7.png)
 
 ## INSTALLING JAVA USING ANSIBLE
  
