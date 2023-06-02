@@ -58,9 +58,9 @@ sudo apt install ansible -y
  2. In invetory create hosts file and give the node1 private ip address
  3. In the playbooks directory write a play installing java
 
-![alt text](/images/image11.png)
+![alt text](./images/image11.png)
 
- ![alt text](/images/image12.png)
+ ![alt text](./images/image12.png)
 
  4. Now run the command 
  ```
@@ -68,11 +68,11 @@ sudo apt install ansible -y
  ```
  5. Now we will see a output like this 
  
- ![alt text](/images/image13.png)
+ ![alt text](./images/image13.png)
 
  NOW CHECK JAVA VERSION IN NODE1
 
- ![alt text](/images/image14.png)
+ ![alt text](./images/image14.png)
 
 
  ## INSTALLING NGINX AND DOTNET
@@ -83,11 +83,11 @@ sudo apt install ansible -y
  ```
  3. Now we will see a output like this
 
- ![alt text](/images/image16.png.jpg)
+ ![alt text](./images/image16.png.jpg)
  
  ### NOW CHECK THE NODE1 TO SEE THE INSTALLATIONS
 
- ![alt text](/images/image15.png.jpg)
+ ![alt text](./images/image15.png.jpg)
 
  
 
